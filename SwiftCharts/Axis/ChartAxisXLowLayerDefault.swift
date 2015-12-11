@@ -28,7 +28,7 @@ class ChartAxisXLowLayerDefault: ChartAxisXLayerDefault {
         self.lineDrawer = self.generateLineDrawer(offset: 0)
         let labelsOffset = (self.settings.axisStrokeWidth / 2) + self.settings.labelsToAxisSpacingX
         let labelDrawers = self.generateLabelDrawers(offset: labelsOffset)
-        let definitionLabelsOffset = labelsOffset + self.labelsTotalHeight + self.settings.axisTitleLabelsToLabelsSpacing
+        let definitionLabelsOffset = labelsOffset + self.labelsTotalHeight + self.settings.axisTitleLabelsToLabelsSpacing.vertical
         self.axisTitleLabelDrawers = self.generateAxisTitleLabelsDrawers(offset: definitionLabelsOffset)
         self.labelDrawers = labelDrawers
     }

@@ -18,7 +18,7 @@ public class ChartSettings {
     public var labelsToAxisSpacingY: CGFloat = 5
     public var spacingBetweenAxesX: CGFloat = 15
     public var spacingBetweenAxesY: CGFloat = 15
-    public var axisTitleLabelsToLabelsSpacing: CGFloat = 5
+    public var axisTitleLabelsToLabelsSpacing: UIOffset = UIOffset(horizontal: 5, vertical: 5)
     public var axisStrokeWidth: CGFloat = 1.0
     
     public init() {}

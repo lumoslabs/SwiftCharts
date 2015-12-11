@@ -26,7 +26,7 @@ class ChartAxisYHighLayerDefault: ChartAxisYLayerDefault {
         
         let labelsOffset = self.settings.labelsToAxisSpacingY + self.settings.axisStrokeWidth
         self.labelDrawers = self.generateLabelDrawers(offset: labelsOffset)
-        let axisTitleLabelsOffset = labelsOffset + self.labelsMaxWidth + self.settings.axisTitleLabelsToLabelsSpacing
+        let axisTitleLabelsOffset = labelsOffset + self.labelsMaxWidth + self.settings.axisTitleLabelsToLabelsSpacing.horizontal
         self.axisTitleLabelDrawers = self.generateAxisTitleLabelsDrawers(offset: axisTitleLabelsOffset)
     }
     

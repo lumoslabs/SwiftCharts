@@ -21,7 +21,7 @@ class ChartAxisXHighLayerDefault: ChartAxisXLayerDefault {
     }
     
     private lazy var labelsOffset: CGFloat = {
-        return self.axisTitleLabelsHeight + self.settings.axisTitleLabelsToLabelsSpacing
+        return self.axisTitleLabelsHeight + self.settings.axisTitleLabelsToLabelsSpacing.vertical
     }()
     
     private lazy var lineOffset: CGFloat = {

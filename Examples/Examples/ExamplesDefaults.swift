@@ -27,7 +27,7 @@ struct ExamplesDefaults {
         chartSettings.bottom = 20
         chartSettings.labelsToAxisSpacingX = 10
         chartSettings.labelsToAxisSpacingY = 10
-        chartSettings.axisTitleLabelsToLabelsSpacing = 5
+        chartSettings.axisTitleLabelsToLabelsSpacing = UIOffset(horizontal: 5, vertical: 5)
         chartSettings.axisStrokeWidth = 1
         chartSettings.spacingBetweenAxesX = 15
         chartSettings.spacingBetweenAxesY = 15
@@ -42,7 +42,7 @@ struct ExamplesDefaults {
         chartSettings.bottom = 10
         chartSettings.labelsToAxisSpacingX = 5
         chartSettings.labelsToAxisSpacingY = 5
-        chartSettings.axisTitleLabelsToLabelsSpacing = 4
+        chartSettings.axisTitleLabelsToLabelsSpacing = UIOffset(horizontal: 4, vertical: 4)
         chartSettings.axisStrokeWidth = 0.2
         chartSettings.spacingBetweenAxesX = 8
         chartSettings.spacingBetweenAxesY = 8

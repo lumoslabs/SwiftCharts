@@ -16,7 +16,7 @@ public class ChartAxisSettings {
     var labelsSpacing: CGFloat = 5
     var labelsToAxisSpacingX: CGFloat = 5
     var labelsToAxisSpacingY: CGFloat = 5
-    var axisTitleLabelsToLabelsSpacing: CGFloat = 5
+    var axisTitleLabelsToLabelsSpacing: UIOffset = UIOffset(horizontal: 5, vertical: 5)
     var lineColor:UIColor = UIColor.blackColor()
     var axisStrokeWidth: CGFloat = 2.0
     var isAxisLineVisible: Bool = true

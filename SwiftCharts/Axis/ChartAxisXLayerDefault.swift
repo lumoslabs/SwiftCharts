@@ -25,7 +25,7 @@ class ChartAxisXLayerDefault: ChartAxisLayerDefault {
     }()
     
     override var height: CGFloat {
-        return self.labelsTotalHeight + self.settings.axisStrokeWidth + self.settings.labelsToAxisSpacingX + self.settings.axisTitleLabelsToLabelsSpacing + self.axisTitleLabelsHeight
+        return self.labelsTotalHeight + self.settings.axisStrokeWidth + self.settings.labelsToAxisSpacingX + self.settings.axisTitleLabelsToLabelsSpacing.vertical + self.axisTitleLabelsHeight
     }
     
     override var length: CGFloat {
