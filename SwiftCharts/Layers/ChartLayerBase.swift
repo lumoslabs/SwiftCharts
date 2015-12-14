@@ -14,4 +14,7 @@ public class ChartLayerBase: ChartLayer {
     public func chartInitialized(chart chart: Chart) {}
     
     public func chartViewDrawing(context context: CGContextRef, chart: Chart) {}
+
+    // add public empty initializer so non-final class can be subclassed (compiler bug?)
+    public init() {}
 }
